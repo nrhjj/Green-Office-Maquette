@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Oswald", sans-serif; }
+
+body {
+  background-image: url(../../img/fond.png);
+  background-size: cover;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.header {
+  width: 750px;
+  background-color: #b8cb21;
+  height: auto; }
+  .header__nav-items {
+    float: right;
+    margin-top: 5rem; }
+    .header__nav-items a {
+      padding: 2rem;
+      color: rgba(0, 0, 0, 0.562);
+      font-size: 2rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.4s ease-in-out; }
+      .header__nav-items a:hover {
+        color: rgba(255, 255, 255, 0.808); }
+
+.main {
+  width: 750px;
+  background-color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .main__title {
+    width: 20rem; }
+    .main__title i {
+      color: #b8cb21;
+      font-size: 2.5rem;
+      margin-right: 1rem; }
+    .main__title h2 {
+      color: #b8cb21;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+  .main__section {
+    height: auto;
+    margin: 2rem; }
+    .main__section img {
+      width: 40%;
+      float: left;
+      padding: 1rem; }
+    .main__section p {
+      width: 100%;
+      font-size: 1.5rem;
+      float: none;
+      font-weight: 300;
+      text-align: justify; }
+    .main__section button {
+      float: right;
+      margin-top: 3rem;
+      height: 4rem;
+      width: 12rem;
+      background-color: #b8cb21;
+      border-color: #b8cb21;
+      color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 1.7rem;
+      transition: transform 0.5s ease-in-out; }
+      .main__section button:hover {
+        transform: translateY(-10px); }
+    .main__section ul {
+      width: 100%;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin: 1rem;
+      margin-left: 3rem; }
+    .main__section--modifier {
+      margin-top: 0rem; }
+
+.footer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem; }
+  .footer img {
+    width: 4rem; }
+  .footer p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 200; }
