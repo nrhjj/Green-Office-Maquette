@@ -11,7 +11,7 @@ html {
   font-family: "Oswald", sans-serif; }
 
 body {
-  background-image: url(../../img/fond.png);
+  background-image: url(./img/fond.png);
   background-size: cover;
   scroll-behavior: smooth;
   overflow: scroll;
